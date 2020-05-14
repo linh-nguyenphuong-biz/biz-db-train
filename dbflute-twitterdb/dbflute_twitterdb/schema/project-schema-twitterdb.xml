@@ -7,10 +7,10 @@
         <column autoIncrement="true" comment="" dbType="BIGINT"
             javaType="Long" name="SAMPLE_ID" pkName="PRIMARY"
             pkPosition="1" primaryKey="true" required="true" size="19" type="BIGINT"/>
-        <column comment="" dbType="DATETIME"
+        <column comment="作成された日時" dbType="DATETIME"
             javaType="java.time.LocalDateTime" name="CREATED_AT"
             required="true" size="19" type="TIMESTAMP"/>
-        <column comment="" dbType="DATETIME"
+        <column comment="更新された日時" dbType="DATETIME"
             javaType="java.time.LocalDateTime" name="UPDATED_AT"
             required="true" size="19" type="TIMESTAMP"/>
     </table>
